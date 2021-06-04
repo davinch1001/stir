@@ -1,0 +1,168 @@
+.business{
+  padding-top: 122px;
+  background: #F7F2E4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__btn{
+    width: 110px;
+    height: 44px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 140% */
+
+    color: #7352FF;
+  }
+  &__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    text-align: center;
+
+    color: #7352FF;
+    margin: 31px 0 16px 0;
+  }
+  &__subtitle{
+    width: 797px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 68px;
+    /* or 106% */
+
+    text-align: center;
+
+    color: #191919;
+  }
+  &__cross-out-text{
+    display: flex;
+    margin-top: 105px;
+    .cross-out{
+      margin: 0 64px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 36px;
+      /* identical to box height, or 150% */
+
+      text-align: center;
+
+      color: #191919;
+    }
+  }
+}
+
+  .table {
+    margin: 79px auto 40px;
+    height: 410px;
+    width: 859px;
+    background: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border-collapse: collapse;
+    &__tr-title{
+      padding-left: 24px;
+    }
+    &__tr-servis{
+      font-style: normal;
+      font-size: 12px;
+      /* identical to box height, or 140% */
+
+      color: #616A7E;
+    }
+    &__td-text{
+      margin-left: 16px;
+    }
+    &__td-items{
+      margin-left: 32px;
+      display: flex;
+    }
+    &__td-servis{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      /* identical to box height, or 140% */
+
+      text-align: center;
+
+      color: #191919;
+    }
+    &__td-servis-info{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 17px;
+      /* identical to box height, or 140% */
+
+      text-align: center;
+
+      color: #616A7E;
+    }
+  }
+
+
+  .border-bottom{
+    border-bottom: 1px solid #EDEDED;
+  }
+
+  .work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 99px;
+    width: 859px;
+    height: 360px;
+    border: 1px solid black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    &__text{
+      margin-left: 66px;
+    }
+    &__title{
+      margin-bottom: 33px;
+      width: 294px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      line-height: 48px;
+      /* or 120% */
+
+
+      color: #191919;
+    }
+    &__subtitle{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+
+
+      color: #616A7F
+    }
+    &__icon{
+      width:254px;
+      margin-right: 65px;
+      img{
+        margin: 10px;
+        width: 40px;
+        height: 40px;
+      }
+
+    }
+  }
+
+

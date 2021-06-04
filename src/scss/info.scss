@@ -1,0 +1,31 @@
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &__title{
+    padding-top: 199px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    text-align: center;
+
+    color: #FF573D;
+  }
+  &__text{
+    width: 1019px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    /* or 130% */
+
+    text-align: center;
+    padding-bottom: 247px;
+
+    color: #191919
+  }
+}

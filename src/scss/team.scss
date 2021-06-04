@@ -1,0 +1,32 @@
+.team{
+  &__card{
+    padding: 24px;
+    position: relative;
+  }
+  &__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__info{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.1);
+    border-radius: 3.99744px;
+    padding: 8px 16px 20px 12px;
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    top:0;
+    left: 0;
+  }
+
+}
+
+.name:before{
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: black ;
+
+}
+
